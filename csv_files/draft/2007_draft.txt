@@ -1,0 +1,61 @@
+Rk,Pk,Tm,Player,College,Yrs,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1,1,POR,Greg Oden\odengr01,Ohio State University,3,105,2028,840,656,51,.574,,.658,19.3,8.0,6.2,0.5,7.3,.174,1.1,1.6
+2,2,SEA,Kevin Durant\duranke01,University of Texas at Austin,12,849,31305,22940,5992,3486,.493,.381,.883,36.9,27.0,7.1,4.1,141.7,.217,5.1,55.7
+3,3,ATL,Al Horford\horfoal01,University of Florida,12,786,25785,11092,6597,2548,.525,.368,.754,32.8,14.1,8.4,3.2,85.7,.160,3.2,34.1
+4,4,MEM,Mike Conley\conlemi01,Ohio State University,12,788,25700,11733,2327,4509,.441,.375,.819,32.6,14.9,3.0,5.7,71.4,.133,2.0,25.7
+5,5,BOS,Jeff Green\greenje02,Georgetown University,11,860,25819,11320,3875,1371,.441,.333,.805,30.0,13.2,4.5,1.6,40.2,.075,-1.3,4.4
+6,6,MIL,Yi Jianlian\jianlyi01,,5,272,6038,2148,1339,192,.404,.333,.780,22.2,7.9,4.9,0.7,3.1,.025,-4.7,-4.1
+7,7,MIN,Corey Brewer\breweco01,University of Florida,12,814,18738,7092,2279,1248,.425,.284,.713,23.0,8.7,2.8,1.5,22.5,.058,-1.0,4.8
+8,8,CHA,Brandan Wright\wrighbr03,University of North Carolina,10,428,6949,2976,1560,199,.607,.000,.674,16.2,7.0,3.6,0.5,26.2,.181,1.6,6.4
+9,9,CHI,Joakim Noah\noahjo01,University of Florida,12,667,18596,5867,6042,1900,.491,.000,.700,27.9,8.8,9.1,2.8,61.8,.160,4.1,28.4
+10,10,SAC,Spencer Hawes\hawessp01,University of Washington,10,684,15541,5932,3893,1271,.457,.350,.716,22.7,8.7,5.7,1.9,22.6,.070,-0.7,5.0
+11,11,ATL,Acie Law\lawac01,Texas A&M University,4,188,2385,725,195,309,.413,.235,.778,12.7,3.9,1.0,1.6,1.6,.032,-5.4,-2.0
+12,12,PHI,Thaddeus Young\youngth01,Georgia Institute of Technology,12,901,27690,12044,5399,1490,.501,.329,.673,30.7,13.4,6.0,1.7,59.7,.103,0.7,19.0
+13,13,NOK,Julian Wright\wrighju01,University of Kansas,4,231,3049,907,531,182,.499,.262,.584,13.2,3.9,2.3,0.8,3.9,.061,-1.3,0.5
+14,14,LAC,Al Thornton\thornal01,Florida State University,4,296,8274,3527,1233,353,.452,.293,.747,28.0,11.9,4.2,1.2,6.1,.035,-3.5,-3.1
+15,15,DET,Rodney Stuckey\stuckro01,Eastern Washington University,10,651,17890,8185,1912,2333,.423,.300,.824,27.5,12.6,2.9,3.6,28.7,.077,-1.4,2.7
+16,16,WAS,Nick Young\youngni01,University of Southern California,12,720,16419,8194,1427,687,.418,.376,.836,22.8,11.4,2.0,1.0,18.6,.054,-3.4,-5.8
+17,17,NJN,Sean Williams\willise01,Boston College,4,137,1978,581,472,47,.511,.000,.624,14.4,4.2,3.4,0.3,3.0,.073,-2.0,0.0
+18,18,GSW,Marco Belinelli\belinma01,,12,803,18665,8009,1670,1360,.425,.376,.847,23.2,10.0,2.1,1.7,29.6,.076,-1.7,1.6
+19,19,LAL,Javaris Crittenton\crittja01,Georgia Institute of Technology,2,113,1853,595,276,201,.442,.231,.638,16.4,5.3,2.4,1.8,0.1,.002,-4.3,-1.1
+20,20,MIA,Jason Smith\smithja02,Colorado State University,11,616,10029,3777,2075,453,.468,.333,.783,16.3,6.1,3.4,0.7,14.1,.067,-2.7,-1.6
+21,21,PHI,Daequan Cook\cookda02,Ohio State University,6,328,5993,2114,703,243,.369,.359,.813,18.3,6.4,2.1,0.7,4.9,.039,-3.6,-2.4
+22,22,CHA,Jared Dudley\dudleja01,Boston College,12,847,19672,6559,2776,1361,.465,.392,.732,23.2,7.7,3.3,1.6,42.1,.103,1.1,15.2
+23,23,NYK,Wilson Chandler\chandwi01,DePaul University,11,641,19553,8258,3429,1166,.444,.343,.768,30.5,12.9,5.3,1.8,28.3,.069,-0.8,6.1
+24,24,PHO,Rudy Fernández\fernaru01,,4,249,5965,2254,608,554,.399,.360,.840,24.0,9.1,2.4,2.2,14.2,.114,1.8,5.7
+25,25,UTA,Morris Almond\almonmo01,Rice University,3,38,361,119,46,12,.381,.292,.743,9.5,3.1,1.2,0.3,0.0,.005,-6.4,-0.4
+26,26,HOU,Aaron Brooks\brookaa01,University of Oregon,10,645,13439,6259,1079,1925,.413,.370,.837,20.8,9.7,1.7,3.0,19.2,.069,-1.8,0.8
+27,27,DET,Arron Afflalo\afflaar01,University of California Los Angeles,11,762,20829,8198,2176,1386,.450,.386,.825,27.3,10.8,2.9,1.8,33.5,.077,-1.1,4.5
+28,28,SAS,Tiago Splitter\splitti01,,7,355,6812,2816,1779,423,.555,.143,.697,19.2,7.9,5.0,1.2,25.3,.178,1.9,6.7
+29,29,PHO,Alando Tucker\tuckeal02,University of Wisconsin,3,51,426,211,49,16,.423,.294,.783,8.4,4.1,1.0,0.3,0.4,.045,-6.7,-0.5
+30,30,PHI,Petteri Koponen\koponpe01,,,,,,,,,,,,,,,,,,
+31,31,SEA,Carl Landry\landrca01,Purdue University,9,513,11524,5541,2533,355,.535,.300,.785,22.5,10.8,4.9,0.7,35.9,.149,-1.1,2.6
+32,32,BOS,Gabe Pruitt\pruitga01,University of Southern California,2,62,461,125,51,52,.321,.283,.783,7.4,2.0,0.8,0.8,0.4,.043,-3.1,-0.1
+33,33,SAS,Marcus Williams\willima04,University of Arizona,2,13,39,14,12,3,.318,,,3.0,1.1,0.9,0.2,-0.1,-.084,-7.5,-0.1
+34,34,DAL,Nick Fazekas\fazekni01,University of Nevada Reno,1,26,269,107,89,11,.561,.000,.682,10.3,4.1,3.4,0.4,0.8,.148,-0.1,0.1
+35,35,SEA,Glen Davis\davisgl01,Louisiana State University,8,514,10865,4111,2236,457,.447,.182,.700,21.1,8.0,4.4,0.9,18.6,.082,-2.3,-0.8
+36,36,GSW,Jermareo Davidson\davidje01,University of Alabama,2,52,433,162,96,14,.425,,.578,8.3,3.1,1.8,0.3,0.0,.000,-7.6,-0.6
+37,37,POR,Josh McRoberts\mcrobjo01,Duke University,11,433,8271,2333,1686,901,.463,.340,.705,19.1,5.4,3.9,2.1,18.5,.107,1.0,6.2
+38,38,PHI,Kyrylo Fesenko\fesenky01,,5,135,1107,305,269,40,.496,.000,.410,8.2,2.3,2.0,0.3,0.9,.038,-4.0,-0.6
+39,39,MIA,Stanko Barać\baracst01,,,,,,,,,,,,,,,,,,
+40,40,LAL,Sun Yue\yuesu01,,1,10,28,6,0,2,.273,.000,,2.8,0.6,0.0,0.2,-0.1,-.226,-15.2,-0.1
+41,41,MIN,Chris Richard\richach01,University of Florida,2,70,780,135,194,25,.483,,.605,11.1,1.9,2.8,0.4,0.7,.045,-3.5,-0.3
+42,42,POR,Derrick Byars\byarsde01,Vanderbilt University,1,2,37,10,11,1,.273,.000,1.000,18.5,5.0,5.5,0.5,0.1,.147,0.6,0.0
+43,43,NOK,Adam Haluska,University of Iowa,,,,,,,,,,,,,,,,,
+44,44,ORL,Reyshawn Terry,University of North Carolina,,,,,,,,,,,,,,,,,
+45,45,LAC,Jared Jordan,Marist College,,,,,,,,,,,,,,,,,
+46,46,GSW,Stéphane Lasme\lasmest01,University of Massachusetts Amherst,1,16,303,83,53,3,.451,,.594,18.9,5.2,3.3,0.2,0.3,.041,-2.8,-0.1
+47,47,WAS,Dominic McGuire\mcguido01,California State University Fresno,6,342,5348,939,1169,422,.419,.188,.658,15.6,2.7,3.4,1.2,4.1,.037,-1.6,0.6
+48,48,LAL,Marc Gasol\gasolma01,,11,795,26565,11921,6114,2740,.483,.350,.777,33.4,15.0,7.7,3.4,79.5,.144,3.4,36.3
+49,49,CHI,Aaron Gray\grayaa01,University of Pittsburgh,7,318,3851,1066,1190,207,.509,.000,.562,12.1,3.4,3.7,0.7,6.2,.077,-1.8,0.2
+50,50,DAL,Renaldas Seibutis\seibure01,,,,,,,,,,,,,,,,,,
+51,51,CHI,JamesOn Curry\curryja01,Oklahoma State University,1,1,0,0,0,0,,,,0.0,0.0,0.0,0.0,0.0,,,0.0
+52,52,POR,Taurean Green\greenta01,University of Florida,1,17,74,27,10,11,.280,.182,.917,4.4,1.6,0.6,0.6,-0.1,-.066,-8.2,-0.1
+53,53,POR,Demetris Nichols\nichode01,Syracuse University,2,18,58,22,7,2,.281,.200,.500,3.2,1.2,0.4,0.1,-0.2,-.203,-15.3,-0.2
+54,54,HOU,Brad Newley\newlebr01,,,,,,,,,,,,,,,,,,
+55,55,UTA,Herbert Hill,Providence College,,,,,,,,,,,,,,,,,
+56,56,MIL,Ramon Sessions\sessira01,University of Nevada Reno,11,691,16119,7141,1840,2807,.434,.316,.791,23.3,10.3,2.7,4.1,28.8,.086,-1.9,0.5
+57,57,DET,Sammy Mejia,DePaul University,,,,,,,,,,,,,,,,,
+58,58,SAS,Georgios Printezis\printgi01,,,,,,,,,,,,,,,,,,
+59,59,PHO,D.J. Strawberry\strawdj01,University of Maryland,1,33,270,73,28,30,.315,.240,.474,8.2,2.2,0.8,0.9,-0.2,-.031,-5.1,-0.2
+60,60,DAL,Milovan Raković\rakovmi01,,,,,,,,,,,,,,,,,,
