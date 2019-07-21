@@ -6,3 +6,10 @@
 ![alt text](https://github.com/pwalesdi/NBA_Player_Prediction/blob/master/ws_per48_dftYR_byRound_1.png)
 
 ![alt text](https://github.com/pwalesdi/NBA_Player_Prediction/blob/master/ws_per48_dftYR_byRound_2.png)
+
+![alt text](https://github.com/pwalesdi/NBA_Player_Prediction/blob/master/2nd_year_best.png)
+
+![alt text](https://github.com/pwalesdi/NBA_Player_Prediction/blob/master/3rd_year_best.png)
+
+![alt text](https://github.com/pwalesdi/NBA_Player_Prediction/blob/master/4th_year_best.png)
+
