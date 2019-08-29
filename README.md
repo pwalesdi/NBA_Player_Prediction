@@ -11,45 +11,45 @@ I have prepared two dataframes. The first is called `second_year_prime` the seco
 | player_id | object   | unique identifier of player                  |
 | SEASON | int | The NBA season that the row corresponds with. The 2018-19 season is coded as 2019 |
 | Tm_x | object | The NBA the player is on |
-| DRAFT_YEAR+1 | float64 | The players rookie year season |
+| DRAFT_YEAR+1 | float | The players rookie year season |
 | Draft_team | object | The team that drafted the player |
-| Pk | float64 | the pick they were selected in the NBA Draft |
-| Age | int64 | Their age during that season |
+| Pk | float | the pick they were selected in the NBA Draft |
+| Age | int | Their age during that season |
 | Pos | object | the position they are coded as by basketball-reference |
-| G | int64 | number of games they played in the season |
-| MP | int64 | numner of minutes they played in a system |
-| PER | float64   | Player Effieciency Rating |
-| TS% | float64   | True Shooting Percentage |
-| 3PAr | float64   | Percentage of FG Attempts from 3-Point Range |
-| FTr | float64  | Number of FT Attempts Per FG Attempt |
-| ORB% | float64   | An estimate of the percentage of available offensive rebounds a player grabbed while he was on the floor |
-| DRB% | float64   | An estimate of the percentage of available defensive rebounds a player grabbed while he was on the floor |
-| TRB% | float64   | An estimate of the percentage of available rebounds a player grabbed while he was on the floor |
-| AST% | float64   | An estimate of the percentage of teammate field goals a player assisted while he was on the floor |
-| STL% | float64   | An estimate of the percentage of opponent possessions that end with a steal by the player while he was on the floor |
-| BLK% | float64   | An estimate of the percentage of opponent two-point field goal attempts blocked by the player while he was on the floor |
-| TOV% | float64   | An estimate of turnovers committed per 100 plays |
-| USG% | float64   | An estimate of the percentage of team plays used by a player while he was on the floor |
-| OWS | float64   | An estimate of the number of wins contributed by a player due to his offense |
-| DWS | float64   | An estimate of the number of wins contributed by a player due to his defense |
-| WS | float64   | An estimate of the number of wins contributed by a player |
-| WS/48	| float64   | An estimate of the number of wins contributed by a player per 48 minutes (league average is approximately .100) |
-| OBPM | float64   | A box score estimate of the offensive points per 100 possessions a player contributed above a league-average player, translated to an average team |
-| DBPM | float64   | A box score estimate of the defensive points per 100 possessions a player contributed above a league-average player, translated to an average team |
-| BPM | float64   | A box score estimate of the points per 100 possessions a player contributed above a league-average player, translated to an average team |
-| VORP | float64   | A box score estimate of the points per 100 TEAM possessions that a player contributed above a replacement-level (-2.0) player, translated to an average team and prorated to an 82-game season |
+| G | int | number of games they played in the season |
+| MP | int | numner of minutes they played in a system |
+| PER | float   | Player Effieciency Rating |
+| TS% | float   | True Shooting Percentage |
+| 3PAr | float   | Percentage of FG Attempts from 3-Point Range |
+| FTr | float  | Number of FT Attempts Per FG Attempt |
+| ORB% | float   | An estimate of the percentage of available offensive rebounds a player grabbed while he was on the floor |
+| DRB% | float   | An estimate of the percentage of available defensive rebounds a player grabbed while he was on the floor |
+| TRB% | float   | An estimate of the percentage of available rebounds a player grabbed while he was on the floor |
+| AST% | float   | An estimate of the percentage of teammate field goals a player assisted while he was on the floor |
+| STL% | float   | An estimate of the percentage of opponent possessions that end with a steal by the player while he was on the floor |
+| BLK% | float   | An estimate of the percentage of opponent two-point field goal attempts blocked by the player while he was on the floor |
+| TOV% | float   | An estimate of turnovers committed per 100 plays |
+| USG% | float   | An estimate of the percentage of team plays used by a player while he was on the floor |
+| OWS | float   | An estimate of the number of wins contributed by a player due to his offense |
+| DWS | float   | An estimate of the number of wins contributed by a player due to his defense |
+| WS | float   | An estimate of the number of wins contributed by a player |
+| WS/48	| float   | An estimate of the number of wins contributed by a player per 48 minutes (league average is approximately .100) |
+| OBPM | float   | A box score estimate of the offensive points per 100 possessions a player contributed above a league-average player, translated to an average team |
+| DBPM | float   | A box score estimate of the defensive points per 100 possessions a player contributed above a league-average player, translated to an average team |
+| BPM | float   | A box score estimate of the points per 100 possessions a player contributed above a league-average player, translated to an average team |
+| VORP | float   | A box score estimate of the points per 100 TEAM possessions that a player contributed above a replacement-level (-2.0) player, translated to an average team and prorated to an 82-game season |
 | College | object   | The college the player attended |
-| Yrs | float64   | the numeber of years the player has played in the NBA |
-| PTS | float64   | total points the player scored that season |
-| TRB | float64   | total rebounds the player recorded that season |
-| AST | float64   | total assists the player recoeded that season |
-| FG%	| float64   | field goal percentage for the season |
-| 3P%	| float64   | 3 point field goal percentage for the season |
-| FT%	| float64   | free throw percentage for the season |
-| PPG | float64   | points per game for the season |
-| RPG | float64   | rebounds per game for the season |
-| APG | float64   | assists per game for the season |
-| draft_round | float64   | the round the player was drafted in |
+| Yrs | float   | the numeber of years the player has played in the NBA |
+| PTS | float   | total points the player scored that season |
+| TRB | float   | total rebounds the player recorded that season |
+| AST | float   | total assists the player recoeded that season |
+| FG%	| float   | field goal percentage for the season |
+| 3P%	| float   | 3 point field goal percentage for the season |
+| FT%	| float   | free throw percentage for the season |
+| PPG | float   | points per game for the season |
+| RPG | float   | rebounds per game for the season |
+| APG | float   | assists per game for the season |
+| draft_round | float   | the round the player was drafted in |
 
 
 
