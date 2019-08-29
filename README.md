@@ -1,4 +1,4 @@
-# NBA_Player_Prediction
+# NBA Player Prediction
 
 This project is an attempt to glean information about NBA Players. When teams invest in a player they are taking a risk. They pay them millions of dollars for the promise of a return on the basketball court and or through marketing/ticket sales. These two are obviously related but that relationship is not one to one. Here I wanted to focus on whether you could predict the future performance of an NBA player based on his statistics in his first two years. I had a number of different theories about what might be interesting and useful. Ultimately I decided that I wanted to see the following **`Can I use a players stats from their first two seasons in the NBA, to predict if they will achieve a benchmark`**. What benchmark? Here I have decided that I am going to try to predict if a player will have a [PER](https://www.basketball-reference.com/about/per.html) of over 20 and play over 1000 minutes. Below I will walk through the steps that I used to preprocess the dataframes and prepare for modeling. 
 
@@ -7,48 +7,49 @@ I have prepared two dataframes. The first is called `second_year_prime` the seco
  ### Data dictionary
  | Column        | Type | Description                                              |
 |---------------|-----------|----------------------------------------------------------|
-| Player_name    | int   | unique identifier of movie    |
-| player_id   | int   | unique identifier of user                  |
-| SEASON | int    | rating was given to a movie by a user (scale 1-5) |
-| Tm_x | datetime   | date when rating was given to a movie by a user |
-| DRAFT_YEAR+1	 | datetime   | date when rating was given to a movie by a user |
-| Draft_team | datetime   | date when rating was given to a movie by a user |
-| Age | datetime   | date when rating was given to a movie by a user |
-| Pos | datetime   | date when rating was given to a movie by a user |
-| G | datetime   | date when rating was given to a movie by a user |
-| MP | datetime   | date when rating was given to a movie by a user |
-| PER | datetime   | date when rating was given to a movie by a user |
-| TS% | datetime   | date when rating was given to a movie by a user |
-| 3PAr | datetime   | date when rating was given to a movie by a user |
-| FTr | datetime   | date when rating was given to a movie by a user |
-| ORB% | datetime   | date when rating was given to a movie by a user |
-| DRB% | datetime   | date when rating was given to a movie by a user |
-| TRB% | datetime   | date when rating was given to a movie by a user |
-| AST% | datetime   | date when rating was given to a movie by a user |
-| STL% | datetime   | date when rating was given to a movie by a user |
-| BLK% | datetime   | date when rating was given to a movie by a user |
-| TOV% | datetime   | date when rating was given to a movie by a user |
-| USG% | datetime   | date when rating was given to a movie by a user |
-| OWS | datetime   | date when rating was given to a movie by a user |
-| DWS | datetime   | date when rating was given to a movie by a user |
-| WS | datetime   | date when rating was given to a movie by a user |
-| WS/48	| datetime   | date when rating was given to a movie by a user |
-| OBPM | datetime   | date when rating was given to a movie by a user |
-| DBPM | datetime   | date when rating was given to a movie by a user |
-| BPM | datetime   | date when rating was given to a movie by a user |
-| VORP | datetime   | date when rating was given to a movie by a user |
-| College | datetime   | date when rating was given to a movie by a user |
-| Yrs | datetime   | date when rating was given to a movie by a user |
-| PTS | datetime   | date when rating was given to a movie by a user |
-| TRB | datetime   | date when rating was given to a movie by a user |
-| AST | datetime   | date when rating was given to a movie by a user |
-| FG%	| datetime   | date when rating was given to a movie by a user |
-| 3P%	| datetime   | date when rating was given to a movie by a user |
-| FT%	| datetime   | date when rating was given to a movie by a user |
-| PPG | datetime   | date when rating was given to a movie by a user |
-| RPG | datetime   | date when rating was given to a movie by a user |
-| APG | datetime   | date when rating was given to a movie by a user |
-| draft_round | datetime   | date when rating was given to a movie by a user |
+| Player_name | object | unique identifier of movie    |
+| player_id | object   | unique identifier of user                  |
+| SEASON | int | rating was given to a movie by a user (scale 1-5) |
+| Tm_x | object | date when rating was given to a movie by a user |
+| DRAFT_YEAR+1 | float64 | date when rating was given to a movie by a user |
+| Draft_team | object | date when rating was given to a movie by a user |
+| Pk | float64 | date when rating was given to a movie by a user |
+| Age | int64 | date when rating was given to a movie by a user |
+| Pos | object | date when rating was given to a movie by a user |
+| G | int64 | date when rating was given to a movie by a user |
+| MP | int64 | date when rating was given to a movie by a user |
+| PER | float64   | date when rating was given to a movie by a user |
+| TS% | float64   | date when rating was given to a movie by a user |
+| 3PAr | float64   | date when rating was given to a movie by a user |
+| FTr | float64   | date when rating was given to a movie by a user |
+| ORB% | float64   | date when rating was given to a movie by a user |
+| DRB% | float64   | date when rating was given to a movie by a user |
+| TRB% | float64   | date when rating was given to a movie by a user |
+| AST% | float64   | date when rating was given to a movie by a user |
+| STL% | float64   | date when rating was given to a movie by a user |
+| BLK% | float64   | date when rating was given to a movie by a user |
+| TOV% | float64   | date when rating was given to a movie by a user |
+| USG% | float64   | date when rating was given to a movie by a user |
+| OWS | float64   | date when rating was given to a movie by a user |
+| DWS | float64   | date when rating was given to a movie by a user |
+| WS | float64   | date when rating was given to a movie by a user |
+| WS/48	| float64   | date when rating was given to a movie by a user |
+| OBPM | float64   | date when rating was given to a movie by a user |
+| DBPM | float64   | date when rating was given to a movie by a user |
+| BPM | float64   | date when rating was given to a movie by a user |
+| VORP | float64   | date when rating was given to a movie by a user |
+| College | object   | date when rating was given to a movie by a user |
+| Yrs | float64   | date when rating was given to a movie by a user |
+| PTS | float64   | date when rating was given to a movie by a user |
+| TRB | float64   | date when rating was given to a movie by a user |
+| AST | float64   | date when rating was given to a movie by a user |
+| FG%	| float64   | date when rating was given to a movie by a user |
+| 3P%	| float64   | date when rating was given to a movie by a user |
+| FT%	| float64   | date when rating was given to a movie by a user |
+| PPG | float64   | date when rating was given to a movie by a user |
+| RPG | float64   | date when rating was given to a movie by a user |
+| APG | float64   | date when rating was given to a movie by a user |
+| draft_round | float64   | date when rating was given to a movie by a user |
 
 
 
