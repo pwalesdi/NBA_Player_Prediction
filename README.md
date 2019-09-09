@@ -51,6 +51,9 @@ I have prepared two dataframes. The first is called `second_year_prime` the seco
 | APG | float   | assists per game for the season |
 | draft_round | float   | the round the player was drafted in |
 
+## Additional Writing
+[When To Give Up: An examination into the value of NBA players relative to their draft status, their likelihood to succeed, and how to determine the value of an asset.
+](https://towardsdatascience.com/when-to-give-up-117e2e2acdc9)
 
 
 
