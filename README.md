@@ -55,6 +55,7 @@ I have prepared two dataframes. The first is called `second_year_prime` the seco
 [When To Give Up: An examination into the value of NBA players relative to their draft status, their likelihood to succeed, and how to determine the value of an asset.
 ](https://towardsdatascience.com/when-to-give-up-117e2e2acdc9)
 
+[The NBA’s Next Generation: Using data and machine learning classification modeling to predict the next generation of NBA stars. Can the data tell us something that our eyes can’t?](https://towardsdatascience.com/the-nbas-next-generation-ca1f06d8c660)
 
 
 ## Visuals
