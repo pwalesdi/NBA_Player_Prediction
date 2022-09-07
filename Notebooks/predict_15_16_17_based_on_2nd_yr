@@ -1,8 +1,8 @@
 ,Player_name,DRAFT_YEAR+1,lr_class,forest_class,tree_class,ada_class,knn_class,bag_class,svc,grad,tot
 4,Bam Adebayo,2018.0,1,1,0,0,1,1,1,0,5
-10,Jarrett Allen,2018.0,1,1,0,0,1,1,1,1,6
+10,Jarrett Allen,2018.0,1,1,0,0,1,1,1,0,5
 11,Kadeem Allen,2018.0,0,0,0,0,0,0,0,0,0
-18,Ike Anigbogu,2018.0,1,1,0,0,1,1,1,0,5
+18,Ike Anigbogu,2018.0,1,1,0,0,1,1,1,1,6
 22,OG Anunoby,2018.0,0,0,0,0,0,0,0,0,0
 29,Dwayne Bacon,2018.0,0,0,0,0,0,0,0,0,0
 35,Lonzo Ball,2018.0,0,0,0,0,0,0,0,0,0
